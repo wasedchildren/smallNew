@@ -1,0 +1,14 @@
+<view class="topBar">
+<view class='topbar-text'>快读·咨询</view>
+
+
+
+</view>
+<view class='tab'>
+<view class="tab-view {{index==num?'border-b':''}}" data-index='{{index}}' wx:for="{{array}}" bindtap='tabClick'>
+ 
+{{item}}</view>
+</view>
+
+<view class='tab-view-boder'></view>
+<view class='news-tittle' wx:for='{{news}}'>{{item}}</view>

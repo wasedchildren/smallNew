@@ -1,0 +1,64 @@
+.topBar{
+  background: #409EDB;
+  height:200rpx;
+  display: flex;
+  align-items: center;
+  
+}
+.topbar-text{
+  line-height: 200rpx;
+  color: #fff;
+  flex: 1;
+  margin-left: 40rpx;
+  
+}
+.tab{
+  width: 100%;
+   display: flex; 
+  align-items: center; 
+  height: 65rpx;
+  justify-content: space-around;
+  background: #409EDB;
+  /* color: #fff;
+   float: left;  */
+  
+  
+}
+  .tab-view{
+  flex:1;
+  background: #409EDB;
+  color: #fff;
+  
+    text-align: center;
+    font-size: 35rpx;
+    line-height: 49rpx;
+    margin: 0 10rpx;
+
+ 
+} 
+.border-b{
+  border-bottom:4rpx solid #fff;
+}
+  /* .tab-view-icon{
+ background:#fff;
+width:40rpx;
+height:6rpx;
+position:absolute;
+top:50rpx;
+left:30rpx;
+
+}   */
+.tab-view-boder{
+  background: gray;
+ 
+  height: 400rpx;
+} 
+.news-tittle{
+  height: 200rpx;
+  text-align: left;
+  align-items: left;
+  border-bottom: 1rpx solid gainsboro;
+  margin: 0 10rpx;
+   justify-content: space-around; 
+
+} 
