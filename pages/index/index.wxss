@@ -16,9 +16,10 @@
   width: 100%;
    display: flex; 
   align-items: center; 
-  height: 65rpx;
+  height: 70rpx;
   justify-content: space-around;
   background: #409EDB;
+  
   /* color: #fff;
    float: left;  */
   
@@ -28,11 +29,14 @@
   flex:1;
   background: #409EDB;
   color: #fff;
-  
+   /* width: 70rpx; */
     text-align: center;
     font-size: 35rpx;
-    line-height: 49rpx;
+     line-height: 42rpx; 
     margin: 0 10rpx;
+      height: 49rpx;  
+      /* padding: 4rpx;  */
+     box-sizing: border-box;
 
  
 } 
